@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+    
+
+</head>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Weather Dashboard</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+  </div>
+<body>
+    
+    <nav>
+        <div id="weatherDashboard">Weather Dashboard</div>
+    </nav>
+    <aside>
+        <div id="searching">
+            <div id="searchCity">Search for a City:</div>
+            <form class="form-inline my-2 my-lg-0 searching">
+                <input id="citySearchInput" class="form-control mr-sm-2" type="search" aria-label="Search">
+                <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0" id="searchButton" type="submit">Search</button>
+              </form>
+        </div>
+
+        <div id="listofCities" class="btn-group-vertical">
+            <!-- <button type="button" class="btn btn-secondary btn-group-vertical cityInList">Left</button>
+            <button type="button" class="btn btn-secondary btn-group-vertical cityInList">Middle</button>
+            <button type="button" class="btn btn-secondary btn-group-vertical cityInList">Right</button> -->
+          </div>
+          
+        
+    </aside>
+    <section id="cityInfo">
+    </section>
+    <section id="forecast">
+        <div id="titleFiveDayForecast">5-Day Forecast:</div>
+
+        <div id="cardOne" class="card" style="width: 10rem;">
+            <div id="dayOne" class="card-body">
+
+            </div>
+        </div>
+
+        <div class="card" style="width: 10rem;">
+            <div id="dayTwo" class="card-body">
+
+            </div>
+        </div>
+
+        <div class="card" style="width: 10rem;">
+            <div id="dayThree" class="card-body">
+
+                
+            </div>
+        </div>
+
+        <div id="cardFour" class="card" style="width: 10rem;">
+            <div id="dayFour" class="card-body">
+
+            </div>
+        </div>
+
+        <div class="card" style="width: 10rem;">
+            <div id="dayFive" class="card-body">
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="/Users/anthonyfigueroa/Desktop/Weatherhw/WeatherDash/script.js"></script>
+</body>
+</html>

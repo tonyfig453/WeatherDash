@@ -1,0 +1,8 @@
+.jumbotron {
+    background-image: url(https://static8.depositphotos.com/1450950/925/i/950/depositphotos_9256292-stock-photo-sunny-sky-background.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
